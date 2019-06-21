@@ -1,0 +1,9 @@
+GAMMA = 0.99  # discount rate
+OBSERVATION = 1000  # number of timesteps to observe before training starts
+EXPLORE = 100000  # frames over which to anneal epsilon
+STARTING_EPS = 0.1  # starting value of epsilon
+FINAL_EPS = 0.0001  # final value of epsilon
+REPLAY_MEMORY = 50000  # number of previous transitions to remember
+BATCH = 16  # size of minibatch
+LEARNING_RATE = 1e-4
+img_channels = 4  # Each training input is made up of 4 stacked frames
