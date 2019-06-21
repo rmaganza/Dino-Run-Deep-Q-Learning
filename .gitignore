@@ -3,6 +3,5 @@ __pycache__
 .git
 .idea
 .ipynb_checkpoints
-*.csv
 *.pkl
 *.exe

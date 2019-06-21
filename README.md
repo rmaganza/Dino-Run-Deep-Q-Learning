@@ -10,3 +10,8 @@ Due to its high complexity, it is impossible to train the model on regular hardw
 For this reason, a *Google Colaboratory* notebook was prepared, ready to run on a cloud Linux VM. To access it, click [here](https://colab.research.google.com/drive/17fsfDmrts2h-uQ4wrbZ7ntR-oGAZ1uX4).
 
 The `model/model.h5` file is a n HDF5 snapshot of the most recent model, and will be used in the notebook to ensure replicability.
+
+## Dependencies
+
+The Colab notebook is self-contained.
+If you instead insist on running locally, be careful as the program dependends on a *Chromedriver* executable to interact with the web browser.
